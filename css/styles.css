@@ -2,6 +2,12 @@
   Partials imports
 ============================ */
 /* =========================
+  Utilities partials imports
+============================ */
+/* =========================
+  Variables
+============================ */
+/* =========================
   Base partials imports
 ============================ */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -388,12 +394,6 @@ a {
   border-radius: 5px;
 }
 
-/* =========================
-  Utilities partials imports
-============================ */
-/* =========================
-  Variables
-============================ */
 /* =========================
   Utilities partials imports
 ============================ */

@@ -4,8 +4,6 @@
 
 // Colors
 $white: #fff;
-// $colors: ('default', 'error', 'info', 'success', 'warning');
-// $button--colors: ('$button--default', '$button--error', '$button--info', '$button--success', '$button--warning');
 
 // Buttons
 $button--default: #51ddfc;
@@ -14,6 +12,15 @@ $button--info: #927bc1;
 $button--success: #63cc82;
 $button--warning: #fd7856;
 $button--lighten: 15%;
+
+// Buttons map
+$button--colors: (
+  default: $button--default,
+  error: $button--error,
+  info: $button--info,
+  success: $button--success,
+  warning: $button--warning
+);
 
 // Breakpoints
 $break-s: 576px;
