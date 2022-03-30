@@ -1,0 +1,68 @@
+/* ============================================= */
+/*              Buttons                          */
+/* ============================================= */
+
+.btn {
+  margin-top: 15px;
+  width: 100%;
+  color: $white;
+  border: none;
+  padding: 10px 0;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+// $colors: ('default', 'error', 'info', 'success', 'warning');
+// $button--colors: ('button--default', 'button--error', 'button--info', 'button--success', 'button--warning');
+
+// @each $color in $colors {
+//   .#{$color} {
+//     @each $button--color in $button--colors {
+//       background-color: $(#{$button--color});
+//       &:hover {
+//         background-color: lighten($button--error, $button--lighten);
+//         transition-duration: 1s;
+//       }
+//     }
+//   }
+// }
+
+.default {
+  background-color: $button--default;
+  &:hover {
+    background-color: lighten($color: $button--default, $amount: $button--lighten);
+    transition-duration: 1s;
+  }
+}
+
+.error {
+  background-color: $button--error;
+  &:hover {
+    background-color: lighten($color: $button--error, $amount: $button--lighten);
+    transition-duration: 1s;
+  }
+}
+
+.info {
+  background-color: $button--info;
+  &:hover {
+    background-color: lighten($color: $button--info, $amount: $button--lighten);
+    transition-duration: 1s;
+  }
+}
+
+.success {
+  background-color: $button--success;
+  &:hover {
+    background-color: lighten($color: $button--success, $amount: $button--lighten);
+    transition-duration: 1s;
+  }
+}
+
+.warning {
+  background-color: $button--warning;
+  &:hover {
+    background-color: lighten($color: $button--warning, $amount: $button--lighten);
+    transition-duration: 1s;
+  }
+}
